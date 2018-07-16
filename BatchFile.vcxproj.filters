@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{99205613-9379-4887-8e1e-4e3541cb9b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6dec7ef1-b1b7-4a2f-9372-fd4df4aaa4c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\MemoryInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IoInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TypeInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GlobalObjectHelper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IoShmMemory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProcMemoryManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HashList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MemoryManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Control.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TaskInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputSubProcess.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PubCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FileModule.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OutputSubProcess.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogInstance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\IoShmMemory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Control.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HashArray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HashList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IoInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MemoryManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProcMemoryManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputSubProcess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PubCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputSubProcess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigSet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogInstance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
